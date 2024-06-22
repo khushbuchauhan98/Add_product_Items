@@ -1,7 +1,32 @@
 .App {
   text-align: center;
 }
-
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+button{
+  color: white;
+  background-color: rgb(117, 33, 117);
+  border: none;
+  padding: 7px 15px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+button:hover{
+  background-color: rgb(141, 106, 141);
+  color: black;
+}
+p{
+  color: black;
+  font-weight: bold;
+  border: 2px solid  rgb(192, 158, 192);
+  padding: 4px 15px;
+  border-radius: 6px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
